@@ -1,2 +1,2 @@
 # Hello World
-[test post](https://github.com/mh-github/mh-github.github.io/blob/master/test_post.md)
+[test post](test_post.md)
