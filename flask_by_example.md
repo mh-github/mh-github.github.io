@@ -34,7 +34,7 @@ env\Scripts\activate.Bartender
 ```
 
 Create files
-`touch app.py .gitignore README.md requirements.txt`
+    touch app.py .gitignore README.md requirements.txt
 
 Update the contents of the file .gitignore in notepad
 `notepad .gitignore`
@@ -44,7 +44,7 @@ Install Flask. I did not give any version number
 `pip install Flask`
 
 Add installed libraries to requirements.txt
-`pip freze > requirements.txt`
+`pip freeze > requirements.txt`
 
 
 
