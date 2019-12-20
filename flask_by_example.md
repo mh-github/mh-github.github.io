@@ -1,4 +1,4 @@
-<ul>20-Dec-2019</ul>
+<u>20-Dec-2019</u>
 
 The [Flask by Example](https://realpython.com/flask-by-example-part-1-project-setup/) is a full-stack tutorial that is very useful to beginners. It integrates Redis and machine learning tasks to provide a comprehensive learning exercise.
 
