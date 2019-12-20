@@ -34,22 +34,31 @@ env\Scripts\activate.Bartender
 ```
 
 Create files
-```touch app.py .gitignore README.md requirements.txt```
+```
+touch app.py .gitignore README.md requirements.txt
+```
 
 Update the contents of the file .gitignore in notepad
-`notepad .gitignore`
+```
+notepad .gitignore
+```
+
 Copy the contents of [repo](https://raw.githubusercontent.com/realpython/flask-by-example/master/.gitignore) into notepad, save and close.
 
 Install Flask. I did not give any version number
-`pip install Flask`
+```
+pip install Flask
+```
 
 Add installed libraries to requirements.txt
-`pip freeze > requirements.txt`
-
-
+```
+pip freeze > requirements.txt
+```
 
 
 My Python version was 3.7.3. The list of supported Python runtimes, https://devcenter.heroku.com/articles/python-support#supported-runtimes has Python 3.7.5. Therefore, I had to upgrade my Python version. I did that with
 
-`conda update anaconde`
+```
+conda update anaconda
+```
 at the Anaconda prompt.
