@@ -34,7 +34,7 @@ env\Scripts\activate.Bartender
 ```
 
 Create files
-    touch app.py .gitignore README.md requirements.txt
+```touch app.py .gitignore README.md requirements.txt```
 
 Update the contents of the file .gitignore in notepad
 `notepad .gitignore`
