@@ -1,8 +1,9 @@
 Finally, I could make the kafka-mongo-connector work on Windows.
 Here is what worked for me:
+
 Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
 
-E:\Tools\kafka_2.12-2.4.0\plugins has mongo-kafka-1.0.1-all.jar file.
+E:\Tools\kafka_2.12-2.4.0\\**plugins** has mongo-kafka-1.0.1-all.jar file.
 
 I downloaded this from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
 
