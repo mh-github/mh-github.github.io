@@ -4,7 +4,8 @@ Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
 
 E:\Tools\kafka_2.12-2.4.0\plugins has mongo-kafka-1.0.1-all.jar file.
 
-I downloaded this from https://www.confluent.io/hub/mongodb/kafka-connect-mongodb
+I downloaded this from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
+
 Click on the blue Download button at the left to get mongodb-kafka-connect-mongodb-1.0.1.zip file.
 
 There is also the file MongoSinkConnector.properties in the etc folder inside the zip file.
