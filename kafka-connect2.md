@@ -2,6 +2,7 @@ Finally, I could make the kafka-mongo-connector work on Windows.
 Here is what worked for me:
 Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
 E:\Tools\kafka_2.12-2.4.0\plugins has mongo-kafka-1.0.1-all.jar file.
+
 I downloaded this from https://www.confluent.io/hub/mongodb/kafka-connect-mongodb
 Click on the blue Download button at the left to get mongodb-kafka-connect-mongodb-1.0.1.zip file.
 
@@ -9,7 +10,7 @@ There is also the file MongoSinkConnector.properties in the etc folder inside th
 Move it to kafka_installation_folder\plugins
 
 
-My connect-standalone.properties file has the following entries:
+My **connect-standalone.properties** file has the following entries:
 ```
 bootstrap.servers=localhost:9092
 key.converter=org.apache.kafka.connect.json.JsonConverter
@@ -23,7 +24,7 @@ offset.flush.interval.ms=10000
 plugin.path=E:/Tools/kafka_2.12-2.4.0/plugins/mongo-kafka-1.0.1-all.jar
 ```
 
-My MongoSinkConnector.properties file has the following entries
+My **MongoSinkConnector.properties** file has the following entries
 ```
 name=mongo-sink
 topics=topic1,topic2
