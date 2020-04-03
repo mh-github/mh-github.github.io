@@ -1,7 +1,6 @@
-## Finally, I could make the kafka-mongo-connector work on Windows.
-Here is what worked for me:
+## Configuring Apache Kafka MongoSinkConnector on Windows
 
-Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
+My Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
 
 I downloaded this from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
 
