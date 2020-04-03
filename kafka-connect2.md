@@ -1,6 +1,6 @@
 ## Configuring Apache Kafka MongoSinkConnector on Windows
 
-My Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
+Mafka installation folder is E:\Tools\kafka_2.12-2.4.0
 
 I downloaded this from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
 
