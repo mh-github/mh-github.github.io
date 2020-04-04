@@ -1,13 +1,19 @@
 ## Configuring Apache Kafka MongoSinkConnector on Windows
 
-My Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
-
-I downloaded this from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
-
+I downloaded the connector from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
 Click on the blue Download button at the left to get **mongodb-kafka-connect-mongodb-1.0.1.zip** file.
 
-There is also the file **MongoSinkConnector.properties** in the etc folder inside the zip file.
-Move it to kafka_installation_folder\\**plugins**. That is, E:\Tools\kafka_2.12-2.4.0\\**plugins** has **mongo-kafka-1.0.1-all.jar** file.
+<br/>
+There is an -all.jar file in the zip. There is also the file **MongoSinkConnector.properties** in the etc folder inside the zip file.
+
+<br/>
+My Kafka installation folder is E:\Tools\kafka_2.12-2.4.0
+Move the jar file to kafka_installation_folder\\**plugins**.
+Move the properties file to kafka_installation_folder\\**config**.
+
+<br/>
+That is, in my case,
+<br/>E:\Tools\kafka_2.12-2.4.0\\**plugins** has **mongo-kafka-1.0.1-all.jar** file. And E:\Tools\kafka_2.12-2.4.0\\**config** has **MongoSinkConnector.properties**.
 
 
 My **connect-standalone.properties** file has the following entries:
