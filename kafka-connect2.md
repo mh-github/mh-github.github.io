@@ -14,8 +14,7 @@ That is, in my case,
 <br/>E:\Tools\kafka_2.12-2.4.0\\**plugins** has **mongo-kafka-1.0.1-all.jar** file. And E:\Tools\kafka_2.12-2.4.0\\**config** has **MongoSinkConnector.properties**.
 
 My **connect-standalone.properties** file has the following entries:
-```
-bootstrap.servers=localhost:9092
+```bootstrap.servers=localhost:9092
 key.converter=org.apache.kafka.connect.json.JsonConverter
 value.converter=org.apache.kafka.connect.json.JsonConverter
 
@@ -28,8 +27,7 @@ plugin.path=E:/Tools/kafka_2.12-2.4.0/plugins/mongo-kafka-1.0.1-all.jar
 ```
 
 My **MongoSinkConnector.properties** file has the following entries
-```
-name=mongo-sink
+```name=mongo-sink
 topics=topic1,topic2
 connector.class=com.mongodb.kafka.connect.MongoSinkConnector
 tasks.max=1
