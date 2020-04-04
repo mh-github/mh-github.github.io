@@ -1,6 +1,7 @@
 ## Configuring Apache Kafka MongoSinkConnector on Windows
 
 I downloaded the connector from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)
+<br/>
 Click on the blue Download button at the left to get **mongodb-kafka-connect-mongodb-1.0.1.zip** file.
 
 <br/>
