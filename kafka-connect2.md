@@ -55,6 +55,7 @@ In 4th console, start Kafka connect --
 `bin\windows\connect-standalone config\connect-standalone.properties config\MongoSinkConnector.properties`
 
 In 5th console, send msgs to a topic (I did for topic1)
+
 `bin\windows\kafka-console-producer --broker-list localhost:9092 --topic topic1`
 <br/>\>{"Hello":1}
 <br/>\>{"Mongo":2}
