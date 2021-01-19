@@ -4,7 +4,7 @@ Karan Bhanot in his article on [towardsdatascience.com](https://towardsdatascien
 
 The code repository is [https://github.com/kb22/ML-React-App-Template](https://github.com/kb22/ML-React-App-Template).
 
-In order to run the example use case of iris flowers prediction, you clone the repository. Open two terminals; in both of them, cd into example/iris-data-classifier/ML-React-App-Template and run the following commands:\
+The example use case is iris flowers prediction. To run it, clone the repository and open two terminals. In both of them, cd into example/iris-data-classifier/ML-React-App-Template and run the following commands:\
 Terminal 1
 ```
 $ cd ui
