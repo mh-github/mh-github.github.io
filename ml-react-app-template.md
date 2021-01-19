@@ -6,8 +6,7 @@ The code repository is [github.com/kb22/ML-React-App-Template](github.com/kb22/M
 
 In order to run the example use case of iris flowers prediction, you clone the repository and run the following commands:\
 Terminal 1
-```
-$ cd using
+``` $ cd using
 $ yarn install
 $ sudo npm install -g serve
 $ npm run build
@@ -15,8 +14,7 @@ $ serve -s build -l 3000
 ```
 
 Terminal 2
-```
-$ cd service
+``` $ cd service
 $ FLASK_APP=app.py flask run
 ```
 
