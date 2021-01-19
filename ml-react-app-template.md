@@ -1,6 +1,6 @@
 ## Create a complete Machine Learning web application using React and Flask
 
-Karan Bhanot in his article on towardsdatascience.com describes a nice template of serving machine learning functionality over a Flask web application that has a React front end.
+Karan Bhanot in his article on [towardsdatascience.com](https://towardsdatascience.com/create-a-complete-machine-learning-web-application-using-react-and-flask-859340bddb33) describes a nice template of serving machine learning functionality over a Flask web application that has a React front end.
 
 The code repository is [https://github.com/kb22/ML-React-App-Template](https://github.com/kb22/ML-React-App-Template).
 
