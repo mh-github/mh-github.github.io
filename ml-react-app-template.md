@@ -4,7 +4,7 @@ Karan Bhanot in his article on towardsdatascience.com describes a nice template 
 
 The code repository is [https://github.com/kb22/ML-React-App-Template](https://github.com/kb22/ML-React-App-Template).
 
-In order to run the example use case of iris flowers prediction, you clone the repository and run the following commands:\
+In order to run the example use case of iris flowers prediction, you clone the repository. Open two terminals; in both of them, cd into example/iris-data-classifier/ML-React-App-Template and run the following commands:\
 Terminal 1
 ```
 $ cd ui
@@ -35,8 +35,8 @@ $ pip3 install -r requirements.txt
 In the line: from flask_restplus import Api, Resource, fields\
 change flask_restplus to flask_restx
 
-After starting the servers in the two terminals you can access the application with\
-http://localhost:5000
+After executing the command 'npm run build' in Terminal 1 and starting the servers in both the terminals, you can access the application at\
+http://localhost:3000
 
 I have forked the repository and made the changes, you can check out and run the application without errors. It's available at:\
 [https://github.com/mh-github/ML-React-App-Template](https://github.com/mh-github/ML-React-App-Template)
