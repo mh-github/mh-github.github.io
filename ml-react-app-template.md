@@ -2,7 +2,7 @@
 
 Karan Bhanot in his article on towardsdatascience.com describes a nice template of serving machine learning functionality over a Flask web application that has a React front end.
 
-The code repository is [github.com/kb22/ML-React-App-Template](github.com/kb22/ML-React-App-Template).
+The code repository is [https://github.com/kb22/ML-React-App-Template](https://github.com/kb22/ML-React-App-Template).
 
 In order to run the example use case of iris flowers prediction, you clone the repository and run the following commands:\
 Terminal 1
