@@ -4,8 +4,8 @@ Karan Bhanot in his article on towardsdatascience.com describes a nice template 
 
 The code repository is github.com/kb22/ML-React-App-Template.
 
-In order to run the example use case of iris flowers prediction, you clone the repository and run the following commands:
-Terminal 1
+In order to run the example use case of iris flowers prediction, you clone the repository and run the following commands:\
+Terminal 1\
 ```$ cd using
 $ yarn install
 $ sudo npm install -g serve
@@ -13,7 +13,7 @@ $ npm run build
 $ serve -s build -l 3000
 ```
 
-Terminal 2
+Terminal 2\
 ```$ cd service
 $ FLASK_APP=app.py flask run
 ```
@@ -22,7 +22,7 @@ The run command throws an error:\
 from werkzeug import cached_property\
 Import_Error : cannot import name 'cached_property'\
 
-To fix this error, two changes are required.
+To fix this error, two changes are required.\
 1) requirements.txt\
 change flask-restplus==0.12.1\
 to flask-restx==0.2.0\
