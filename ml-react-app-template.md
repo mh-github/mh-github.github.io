@@ -6,7 +6,8 @@ The code repository is [github.com/kb22/ML-React-App-Template](github.com/kb22/M
 
 In order to run the example use case of iris flowers prediction, you clone the repository and run the following commands:\
 Terminal 1
-``` $ cd using
+```
+$ cd ui
 $ yarn install
 $ sudo npm install -g serve
 $ npm run build
@@ -14,7 +15,8 @@ $ serve -s build -l 3000
 ```
 
 Terminal 2
-``` $ cd service
+```
+$ cd service
 $ FLASK_APP=app.py flask run
 ```
 
@@ -32,6 +34,9 @@ $ pip3 install -r requirements.txt
 2) app.py\
 In the line: from flask_restplus import Api, Resource, fields\
 change flask_restplus to flask_restx
+
+After starting the servers in the two terminals you can access the application with\
+http://localhost:5000
 
 I have forked the repository and made the changes, you can check out and run the application without errors. It's available at:\
 [https://github.com/mh-github/ML-React-App-Template](https://github.com/mh-github/ML-React-App-Template)
