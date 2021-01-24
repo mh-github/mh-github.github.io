@@ -6,21 +6,21 @@ The repository is at [https://github.com/sdhilip200/Content-Based-Recommendation
 
 The code is given in a Python notebook. When I ran the code, I faced a few errors and had to change the code, as follows:
 
-Cell \[2\] : df = pd.read_csv("test.csv")\
+Cell \[2\] : `df = pd.read_csv("test.csv")`\
 I replaced test.csv with data.csv\
-df = pd.read_csv("data.csv")
+`df = pd.read_csv("data.csv")`
 
-Cell \[9\] : google_model.build_vocab(line_of_sentance)\
-I replaced line_of_sentance with corpus\
-google_model.build_vocab(corpus)
+Cell \[9\] : `google_model.build_vocab(line_of_sentance)`\
+I replaced `line_of_sentance` with `corpus`\
+`google_model.build_vocab(corpus)`
 
-Cell \[9\] : %%time\
+Cell \[9\] : `%%time`\
 SyntaxError: invalid syntax\
 I commented it.
 
-Cell \[13\] : cosine_similarities = cosine_similarity(array_embeddings, array_embeddings)\
-I replaced array_embeddings with word_embeddings\
-cosine_similarities = cosine_similarity(word_embeddings, word_embeddings)
+Cell \[13\] : `cosine_similarities = cosine_similarity(array_embeddings, array_embeddings)`\
+I replaced `array_embeddings` with `word_embeddings`\
+`cosine_similarities = cosine_similarity(word_embeddings, word_embeddings)`
 
 I forked the repository and made the changes.\
 It can be accessed at: [https://github.com/mh-github/Content-Based-Recommendation---Good-Reads-data](https://github.com/mh-github/Content-Based-Recommendation---Good-Reads-data)

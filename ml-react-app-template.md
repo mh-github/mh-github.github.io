@@ -26,14 +26,14 @@ Import_Error : cannot import name 'cached_property'
 
 To fix this error, two changes are required.\
 1) requirements.txt\
-change flask-restplus==0.12.1\
-to flask-restx==0.2.0
+change `flask-restplus==0.12.1`\
+to `flask-restx==0.2.0`
 
-$ pip3 install -r requirements.txt
+`$ pip3 install -r requirements.txt`
 
 2) app.py\
-In the line: from flask_restplus import Api, Resource, fields\
-change flask_restplus to flask_restx
+In the line: `from flask_restplus import Api, Resource, fields`\
+change `flask_restplus` to `flask_restx`
 
 After executing the command 'npm run build' in Terminal 1 and starting the servers in both the terminals, you can access the application at\
 http://localhost:3000
