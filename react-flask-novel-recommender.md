@@ -50,6 +50,11 @@ That is, Enter 'Neuromancer' in the input text field and click Add.\
 In the text field, you will see 'We found your favorite book!'.\
 Then, refresh the webpage (F5 or Ctrl-R) and the recommended book will appear below the Add button.
 
+The Python notebook having the whole application code also has errors.\
+The path to the `ratings.csv` and `books.csv` had to be corrected by prepending with api/ as follows:\
+`uir = pd.read_csv("data/goodbooks-10k-master/ratings.csv")`
+`books = pd.read_csv("data/goodbooks-10k-master/books.csv")`
+    
 I have forked the repository and made the changes, you can check out and run the application without errors. It's available at:\
 [https://github.com/mh-github/GoodReadsGraph](https://github.com/mh-github/GoodReadsGraph)
 
