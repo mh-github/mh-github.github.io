@@ -1,6 +1,8 @@
 title: MH Tutorials Cleanup Stuff
 # theme: jekyll-theme-architect
+
 remote_theme: jekyll/minima
+
 plugins:
   - jekyll-archives
   - jekyll-feed
