@@ -10,3 +10,5 @@ plugins:
 
 paginate: 10
 paginate_path: posts/page:num/
+
+url: "https://mh-github.github.io"
