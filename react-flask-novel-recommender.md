@@ -1,3 +1,5 @@
+{:.no_toc}
+
 ## Build a React + Flask App that Suggests Novel Novels with a Python Graph
 
 Jay Franck in his [article](https://towardsdatascience.com/build-a-react-flask-app-that-suggests-novel-novels-with-a-python-graph-9491e714bbdf) describes a recommendation application based on GoodReads data using a Python graph. The summary is:
