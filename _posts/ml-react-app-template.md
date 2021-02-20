@@ -1,4 +1,13 @@
+---
+layout: post
+title: "Create a complete Machine Learning web application using React and Flask"
+---
+
+### Contents
 {:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 ## Create a complete Machine Learning web application using React and Flask
 

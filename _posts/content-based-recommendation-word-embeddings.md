@@ -1,4 +1,13 @@
+---
+layout: post
+title: "Content-Based Recommendation System Using Word Embeddings"
+---
+
+### Contents
 {:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 ## Content-Based Recommendation System Using Word Embeddings
 

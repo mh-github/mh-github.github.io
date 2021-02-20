@@ -1,4 +1,13 @@
+---
+layout: post
+title: "Build a React + Flask App that Suggests Novel Novels with a Python Graph"
+---
+
+### Contents
 {:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 ## Build a React + Flask App that Suggests Novel Novels with a Python Graph
 

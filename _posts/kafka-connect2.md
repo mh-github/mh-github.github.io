@@ -1,4 +1,13 @@
+---
+layout: post
+title: "Configuring Apache Kafka MongoSinkConnector on Windows"
+---
+
+### Contents
 {:.no_toc}
+
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 ## Configuring Apache Kafka MongoSinkConnector on Windows
 
