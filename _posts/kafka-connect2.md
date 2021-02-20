@@ -1,5 +1,6 @@
 ---
 layout: post
+date:   2021-02-18
 title: "Configuring Apache Kafka MongoSinkConnector on Windows"
 ---
 
