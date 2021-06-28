@@ -3,14 +3,14 @@ title: MH Tutorials Cleanup Stuff
 # remote_theme: jekyll/minima
 # theme: jekyll-theme-architect
 
-plugins:
-  - jekyll-archives
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# plugins:
+#  - jekyll-archives
+#  - jekyll-feed
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
 
 # paginate: 10
 # paginate_path: posts/page:num/
 
-url: "https://mh-github.github.io"
+# url: "https://mh-github.github.io"
