@@ -4,4 +4,7 @@
         <br/>
         <a href = "content-based-recommendation-word-embeddings.html">Content-Based Recommendation System using Word Embeddings</a>
         <br/>
-        <a href = "react-flask-novel-recommender.html">Build a React + Flask App that Suggests Novel Novels with a Python Graph</a>
+    
+        
+        
+        [Build a React + Flask App that Suggests Novel Novels with a Python Graph](react-flask-novel-recommender.html)
