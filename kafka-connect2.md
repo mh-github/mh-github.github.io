@@ -1,15 +1,3 @@
----
-layout: post
-date:   2021-02-18
-title: "Configuring Apache Kafka MongoSinkConnector on Windows"
----
-
-### Contents
-{:.no_toc}
-
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
 ## Configuring Apache Kafka MongoSinkConnector on Windows
 
 I downloaded the connector from [confluent](https://www.confluent.io/hub/mongodb/kafka-connect-mongodb)

@@ -1,14 +1,3 @@
----
-layout: post
-title: "Create a complete Machine Learning web application using React and Flask"
----
-
-### Contents
-{:.no_toc}
-
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
 ## Create a complete Machine Learning web application using React and Flask
 
 Karan Bhanot in his article on [towardsdatascience.com](https://towardsdatascience.com/create-a-complete-machine-learning-web-application-using-react-and-flask-859340bddb33) describes a nice template of serving machine learning functionality over a Flask web application that has a React front end.

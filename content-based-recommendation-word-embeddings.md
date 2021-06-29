@@ -1,14 +1,3 @@
----
-layout: post
-title: "Content-Based Recommendation System Using Word Embeddings"
----
-
-### Contents
-{:.no_toc}
-
-* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
-{:toc}
-
 ## Content-Based Recommendation System Using Word Embeddings
 
 In his [article](https://medium.com/towards-artificial-intelligence/content-based-recommendation-system-using-word-embeddings-c1c15de1ef95) Dhilip Subramanian describes a book recommendation engine based on goodreads data. He explains that "a content-based recommendation system recommends books to a user by taking similarity of books based on the description. It also considers the user's previous book history in order to recommend a similar book. Cosine similarity is used in our recommender system to recommend the books."
